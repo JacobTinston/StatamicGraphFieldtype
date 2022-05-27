@@ -1,0 +1,30 @@
+{
+    "name": "surgems/graph-fieldtype",
+    "description": "Fieldtype for statamic that generates a graph on the frontend.",
+    "version": "1.0",
+    "latestVersion": "1.0",
+    "autoload": {
+        "psr-4": {
+            "Surgems\\GraphFieldtype\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Surg Marketing Solutions"
+        }
+    ],
+    "support": {
+        "email": "support@surgems.co.uk"
+    },
+    "extra": {
+        "statamic": {
+            "name": "Graph Fieldtype",
+            "description": "Fieldtype for statamic that generates a graph on the frontend."
+        },
+        "laravel": {
+            "providers": [
+                "Surgems\\GraphFieldtype\\ServiceProvider"
+            ]
+        }
+    }
+}
